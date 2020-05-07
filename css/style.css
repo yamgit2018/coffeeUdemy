@@ -58,3 +58,45 @@ html {
   {
       text-align: center;
   }
+
+  /* Header */
+  .site-header
+  {
+      background-image: url(../img/banner.jpg);
+      background-position: center center;
+      background-size: cover;
+      height: 60rem;
+
+  }
+
+  .barra h1
+  {
+      font-weight: 400;
+  }
+
+  .barra h1 span
+  {
+      font-weight: 700;
+  }
+
+  .barra a
+  {
+      color: #ffffff;
+      text-decoration: none;
+  }
+
+  .navegacion a
+  {
+      display: block;
+      text-align: center;
+      font-size: 1.8rem;
+  }
+
+  .texto-header 
+  {
+    color: white;
+    margin-top: 1px;
+    text-align: center;
+  }
+
+ 
