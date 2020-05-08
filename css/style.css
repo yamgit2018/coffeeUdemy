@@ -59,6 +59,11 @@ html {
       text-align: center;
   }
 
+  .no-margin
+  {
+      margin: 0;
+  }
+
   /* Header */
   .site-header
   {
@@ -67,6 +72,21 @@ html {
       background-size: cover;
       height: 60rem;
 
+  }
+
+  .barra
+  {
+      text-align: center;
+  }
+
+  @media (min-width:768px) 
+  {
+      .barra
+      {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
   }
 
   .barra h1
@@ -88,15 +108,33 @@ html {
   .navegacion a
   {
       display: block;
-      text-align: center;
       font-size: 1.8rem;
+  }
+
+  @media (min-width:768px) 
+  { 
+    .navegacion a
+    {
+        display: inline;
+        margin-right: 2rem;
+    }  
+
+    .navegacion a:last-of-type
+    {
+        margin: 0;
+    }
   }
 
   .texto-header 
   {
     color: white;
-    margin-top: 1px;
+    margin-top: 5rem;
     text-align: center;
+  }
+
+  .texto-header p
+  {
+      font-size: 2rem;
   }
 
  
