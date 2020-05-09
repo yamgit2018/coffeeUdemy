@@ -132,6 +132,14 @@ html {
     text-align: center;
   }
 
+  @media (min-width:768px) 
+  {
+      .texto-header
+      {
+          margin-top: 18rem;
+      }
+  }
+
   .texto-header p
   {
       font-size: 2rem;
