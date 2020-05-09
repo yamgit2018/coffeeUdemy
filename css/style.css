@@ -58,3 +58,91 @@ html {
   {
       text-align: center;
   }
+
+  .no-margin
+  {
+      margin: 0;
+  }
+
+  /* Header */
+  .site-header
+  {
+      background-image: url(../img/banner.jpg);
+      background-position: center center;
+      background-size: cover;
+      height: 60rem;
+
+  }
+
+  .barra
+  {
+      text-align: center;
+  }
+
+  @media (min-width:768px) 
+  {
+      .barra
+      {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+  }
+
+  .barra h1
+  {
+      font-weight: 400;
+  }
+
+  .barra h1 span
+  {
+      font-weight: 700;
+  }
+
+  .barra a
+  {
+      color: #ffffff;
+      text-decoration: none;
+  }
+
+  .navegacion a
+  {
+      display: block;
+      font-size: 1.8rem;
+  }
+
+  @media (min-width:768px) 
+  { 
+    .navegacion a
+    {
+        display: inline;
+        margin-right: 2rem;
+    }  
+
+    .navegacion a:last-of-type
+    {
+        margin: 0;
+    }
+  }
+
+  .texto-header 
+  {
+    color: white;
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  @media (min-width:768px) 
+  {
+      .texto-header
+      {
+          margin-top: 18rem;
+      }
+  }
+
+  .texto-header p
+  {
+      font-size: 2rem;
+  }
+
+ 
