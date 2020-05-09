@@ -145,4 +145,14 @@ html {
       font-size: 2rem;
   }
 
+  /* Main */
+  .contenido-principal
+  {
+      display: flex;
+      flex-wrap: wrap;
+  }
  
+  .cursos, .nuestro-blog
+  {
+      flex: 0 0 100%;
+  }
