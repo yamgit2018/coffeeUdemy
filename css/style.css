@@ -156,3 +156,28 @@ html {
   {
       flex: 0 0 100%;
   }
+
+  @media (min-width:768px) 
+  {
+      .contenido-principal
+      {
+         justify-content: space-between; 
+      }
+
+      .nuestro-blog
+      {
+          flex-basis: 66.6%;
+      }
+
+      .cursos
+      {
+          flex-basis: calc(33.3% - 3rem);
+          order: 1;
+      }
+  }
+
+  .blog
+  {
+      margin-bottom: 3rem;
+      border-bottom: 1px solid #e1e1e1;
+  }
