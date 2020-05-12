@@ -181,3 +181,39 @@ html {
       margin-bottom: 3rem;
       border-bottom: 1px solid #e1e1e1;
   }
+
+  .blog:last-of-type
+  {
+      border: none;
+  }
+
+  /* Aside Cursos */
+
+  .lista-cursos
+  {
+      padding: 0;
+      list-style: none;
+  }
+
+  .curso
+  {
+      padding-bottom: 3rem;
+      border-bottom: 1px solid #e1e1e1;
+  }
+
+  .curso:last-of-type
+  {
+      border: none;
+  }
+
+  .curso p
+  {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .curso p span
+  {
+      font-weight: 400;
+  }
