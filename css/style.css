@@ -252,4 +252,10 @@ html {
       font-weight: 400;
   }
 
+  /* Footer */
+  .site-footer
+  {
+      background-color: black;
+  }
+
   
