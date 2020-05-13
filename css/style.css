@@ -64,6 +64,39 @@ html {
       margin: 0;
   }
 
+  /* Botones */
+  .boton
+  {
+    display: block;
+    padding: 1rem 3rem;
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+
+  @media (min-width:768px) 
+  {
+      .boton
+      {
+          display:inline-block
+      }
+  }
+
+  .boton-primario
+  {
+    background-color: #000000;
+  }
+
+  .boton-secundario
+  {
+    background-color: brown;
+  }
+
+
+
   /* Header */
   .site-header
   {
@@ -166,12 +199,12 @@ html {
 
       .nuestro-blog
       {
-          flex-basis: 66.6%;
+          flex-basis: 60%;
       }
 
       .cursos
       {
-          flex-basis: calc(33.3% - 3rem);
+          flex-basis: calc(40% - 3rem);
           order: 1;
       }
   }
@@ -180,6 +213,7 @@ html {
   {
       margin-bottom: 3rem;
       border-bottom: 1px solid #e1e1e1;
+      padding-bottom: 2rem;
   }
 
   .blog:last-of-type
@@ -198,7 +232,7 @@ html {
   .curso
   {
       padding-bottom: 3rem;
-      border-bottom: 1px solid #e1e1e1;
+      border-bottom: 2px solid #e1e1e1;
   }
 
   .curso:last-of-type
@@ -217,3 +251,5 @@ html {
   {
       font-weight: 400;
   }
+
+  
