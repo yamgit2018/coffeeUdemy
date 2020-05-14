@@ -256,6 +256,24 @@ html {
   .site-footer
   {
       background-color: black;
+      padding: 4rem;
+      margin-top: 3rem;
+      
   }
 
-  
+  /* Nosotros */
+  @media (min-width:768px) 
+  {
+      .grid
+      {
+          display: flex;
+          justify-content: space-between;
+          
+      }
+
+      .column-6
+      {
+          flex: 0 0 calc(50% - 1rem);
+      }
+
+  }
