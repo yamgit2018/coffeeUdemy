@@ -64,6 +64,17 @@ html {
       margin: 0;
   }
 
+  @media (min-width:768px) 
+  {
+      .grid
+      {
+          display: flex;
+          justify-content: space-between;
+          
+      }
+
+  }
+
   /* Botones */
   .boton
   {
@@ -212,7 +223,7 @@ html {
   .blog
   {
       margin-bottom: 3rem;
-      border-bottom: 1px solid #e1e1e1;
+      border-bottom: 3px solid #e1e1e1;
       padding-bottom: 2rem;
   }
 
@@ -231,7 +242,7 @@ html {
 
   .curso
   {
-      padding-bottom: 3rem;
+      padding: 2rem 0;
       border-bottom: 2px solid #e1e1e1;
   }
 
@@ -247,10 +258,16 @@ html {
     font-weight: 700;
   }
 
-  .curso p span
+  .curso p span, .curso p.contenido-curso
   {
       font-weight: 400;
   }
+
+  /* p .contenido-curso
+  {
+      font-weight: 400;
+  } */
+
 
   /* Footer */
   .site-footer
@@ -262,18 +279,27 @@ html {
   }
 
   /* Nosotros */
-  @media (min-width:768px) 
-  {
-      .grid
-      {
-          display: flex;
-          justify-content: space-between;
-          
-      }
+  
+@media (min-width:768px) 
+{
+    .column-6
+    {
+        flex: 0 0 calc(50% - 1rem);
+    }
+   
+}
+  
 
-      .column-6
-      {
-          flex: 0 0 calc(50% - 1rem);
-      }
+/* Cursos */
+@media (min-width:768px) 
+{
+    .column-4
+    {
+        flex: 0 0 calc(40% - 1rem);
+    }
 
-  }
+    .column-8
+    {
+        flex: 0 0 calc(60% - 1rem);
+    }
+}
