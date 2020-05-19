@@ -29,8 +29,34 @@
     </header>
 
     <main class="contenedor">
-        
+        <h2 class="centrar-texto">Contacto</h2>
+        <div class="grid centrar-columns">
+            <div class="column-12">
+                <img src="img/contacto.jpg" alt="Contacto">
+            </div>
+            <div class="column-10 formulario-contacto">
+                <form action="#">
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text"  id="nombre" placeholder="Tu Nombre">
+                    </div>    
 
+                    <div class="campo">
+                        <label for="correo">Correo</label>
+                        <input type="email"  id="correo" placeholder="Tu Correo">
+                    </div>    
+                    
+                    <div class="campo mensaje">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea name="" id="mensaje" ></textarea>
+                    </div>
+                    
+                    <div class="campo enviar">
+                       <input type="submit" value="Enviar" class="boton boton-primario">
+                    </div>        
+                </form>
+            </div>        
+        </div>    
     </main>
 
     <footer class="site-footer">
