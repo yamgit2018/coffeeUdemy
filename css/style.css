@@ -92,13 +92,22 @@ html {
     font-weight: 700;
     text-decoration: none;
     font-size: 2rem;
+    flex: 0 0 100%;
   }
+
+  .boton:hover
+  {
+      cursor: pointer;
+  }
+
 
   @media (min-width:768px) 
   {
       .boton
       {
-          display:inline-block
+          display:inline-block;
+          flex: 0 0 auto;
+          
       }
   }
 
@@ -363,7 +372,7 @@ html {
 
 @media (min-width:768px) 
 {
-    .enviar
+    .formulario-contacto .enviar
     {
         display: flex;
         justify-content: flex-end;
